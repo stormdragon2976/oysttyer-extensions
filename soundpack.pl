@@ -20,11 +20,11 @@ sub notifier_soundpack
         my $class = shift;
         my $text = shift;
         my $ref = shift;
-        #Use extpref_sound_command in .ttytterrc to change to appropriate sound system such as ogg123 -q or play -q for sox.
-        #Pulse is starting to be most common, so the default is paplay.
+        #Use extpref_sound_command in .ttytterrc to change to appropriate sound system such as ogg123 -q or paplay for pulseaudio.
+the default is play -q which requires sox be installed.
         if (!$extpref_sound_command)
         {
-            $soundSystem = "paplay";
+            $soundSystem = "play -q";
         }
         else
         {
