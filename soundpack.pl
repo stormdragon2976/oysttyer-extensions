@@ -12,7 +12,7 @@ sub notifier_soundpack
         #is play.
         if (!$extpref_sound_command)
         {
-            $soundSystem = "play -q -V0";
+            $soundSystem = "play -qV0";
         }
         else
         {
@@ -33,7 +33,7 @@ sub notifier_soundpack
                 print $stdout "Loaded $soundPath sound pack.\n";
                 return 1;
         }
-        system("$soundSystem $ENV{'HOME'}/oysttyer-extensions/sounds/$soundPath/" . lc($class) . ".ogg");
+        system("$soundSystem $ENV{'HOME'}/oysttyer-extensions/sounds/$soundPath/" . lc($class) . ".ogg &> /dev/null");
         return 1;
 }
         1;
