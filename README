@@ -1,9 +1,10 @@
-This is a suite of extensions for the TTYtter client for Twitter and similar services. Several authors are represented in these extensions and I have tried to make sure proper credit is given. If you find something out of place please contact me on Twitter or Identica. My username is @stormdragon2976. Each extension has a short description and usage statement at the top of the code, so if you are unsure of how it works, read the top of the code. If you have questions after reading it contact me on Twitter or Identica.
+This is a suite of extensions for the Oysttyer client, formally TTYtter, for Twitter and similar services. Several authors are represented in these extensions and I have tried to make sure proper credit is given. If you find something out of place please contact me on Twitter or Identica. My username is @stormdragon2976. Each extension has a short description and usage statement at the top of the code, so if you are unsure of how it works, read the top of the code. If you have questions after reading it contact me on Twitter or Identica.
 License information for each extension is also available in its file. Should the information be missing then it is covered by the Floodgap Free Software License:
 http://www.floodgap.com/software/ffsl/
 Websites of Interest:
-TTYtter's home page:
-http://www.floodgap.com/software/ttytter/
+Oysttyer's home page:
+https://github.com/oysttyer/oysttyer
 Storm Dragon's home page:
-http://www.stormdragon.us/
-
+https://www.stormdragon.tk/
+Storm Dragon's GNU Social page:
+https://social.stormdragon.tk/storm

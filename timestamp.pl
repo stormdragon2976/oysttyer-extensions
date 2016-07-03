@@ -3,10 +3,10 @@
 
 
 #What is it?
-#This extension adds timestamps before tweets if 5 minutes or more have passed.
+#This extension adds timestamps before statuses if 5 minutes or more have passed.
 
 #Usage:
-#This extension works automatically. Just call it when you load TTYtter or add it to your ~/.ttytterrc
+#This extension works automatically. Just call it when you load Oysttyer or add it to your ~/.oysttyerrc
 #for more information on extensions visit http://www.floodgap.com/software/ttytter/adv.html
 
 $handle = sub {

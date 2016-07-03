@@ -1,6 +1,6 @@
 ###################
 #
-# ttytter-r2a.pl -- a TTYtter extension
+# oysttyer-r2a.pl -- a Oysttyer extension
 # 
 # 	Copyright (C) 2011 by Ben Cotton
 #
